@@ -1,0 +1,82 @@
+body{
+    background-color: #333;
+  
+}
+body .hcon{
+    display: flex;
+    justify-content:center;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    background-color: #222;
+    width: 80vw;
+    padding-top:30px ;
+    padding: 20px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.img img,canvas{
+max-width: 60vw;
+max-height: 70vh;
+}
+.upload input{
+    display: none;
+}
+.upload label{
+    color: #fff;
+    padding: 8px  20px;
+    border: 2px #fff dashed;
+    cursor: pointer;
+}
+.filters ul,.filters ul li{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    direction: rtl;
+}
+.filters ul li label{
+    color: white;
+}
+.filters li:last-child{
+    flex-direction: row;
+    justify-content: space-around;
+}
+.filters ul li a, span{
+    color: white;
+    padding: 10px 20px;
+    background-color: #060;
+    cursor: pointer;
+}
+@media  screen and (max-width:650px) {
+    .container{
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+    .img img,canvas{
+        max-width: 80vw;
+    }
+}
+.title{
+    color: white;
+    padding: 20px;
+    text-align: center;
+}.title b{
+    color: #060;
+    font-weight: 900;
+}
+.title h1{
+font-size: 30px;
+}
+
