@@ -46,7 +46,7 @@ upload.onchange = function () {
   };
 };
 let filters = document.querySelectorAll("ul li input");
-filters.forEach((filter) => {
+filters.forEach(filter => {
   filter.addEventListener("input", function () {
     ctx.filter = `
 saturate(${saturate.value}%)
