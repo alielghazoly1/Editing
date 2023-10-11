@@ -60,6 +60,6 @@ hue-rotate(${huerotate.value}deg)
   });
 });
 download.onclick = function () {
-  download.href = canvas.toDataURL()
+  download.href = canvas.toDataURL("imge/IMG")
   download.innerHTML="Done"
 };
