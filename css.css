@@ -65,7 +65,7 @@ max-height: 70vh;
         gap: 50px;
     }
     .img img,canvas{
-        max-width: 80vw;
+      
     }
 }
 .title{
